@@ -1,0 +1,114 @@
+body {
+	background-color: #17181b;
+}
+h1 {
+	text-align: center;
+	color: #fff;
+}
+h4{
+	font-size: 16px;
+	font-weight: 700;
+}
+header{
+	padding: 20px 0 0 0;
+	background: #1d2124;
+	text-align: center;
+}
+@media (min-width: 750px) {
+	header {
+		text-align: left;
+	}
+}
+
+ul {
+	list-style: none;
+}
+
+.hero {
+	background-image: url(../img/fonGen.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+.encabezado{
+	margin: 30px 0;
+	color: black;
+}
+.submenu {
+	position: relative;
+}
+
+.contenido-hero{
+	margin-top: 80px;
+	color: #fff;
+}
+.contenido-hero form {
+	position: relative;
+	margin-bottom: 0;
+}
+
+.barra {
+	padding: 20px 0;
+	background: -webkit-linear-gradient(left, #0041aa 0%, #00bbbb 100%);
+}
+
+.barra p {
+	margin 0;
+	color: #fff;
+}
+.icono {
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 60px;
+	background-size: 30px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+@media (min-width: 750px) {
+	.icono {
+		margin-bottom: 0;
+	}
+}
+.card {
+	text-align: center;
+	border: 1px solid rgba(255,255,255,0.05);
+	background:#1d2124;
+}
+
+@media (min-width: 550px){
+	.card {
+		text-align: left;
+	}
+}
+
+.info-card{
+	padding: 100px 20px;
+	color: #ffff;
+}
+
+.footer {
+	margin-top: 40px;
+	padding-top: 40px;
+	background: #1d2124;
+}
+.footer .menu a {
+	display: block;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+
+.titulo{
+	margin: 50px 0;
+	color: black;
+        text-align: center;
+}
+.subm{
+	margin: 30px 0;
+	color: black;
+          
+}
+.inicio .logotipo{
+	margin-bottom: 20px;
+}
